@@ -50,6 +50,17 @@
     "custom_video": {
       "type": "custom-video",
       "settings": {
+        "video": "shopify:\/\/files\/videos\/KV-Video-Optimized.mp4",
+        "color_scheme": "scheme-3"
+      }
+    },
+    "custom_video_2": {
+      "type": "custom-video-2",
+      "settings": {
+        "video": "shopify:\/\/files\/videos\/KV-Video-Optimized.mp4",
+        "color_scheme": "scheme-3",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "rich_text": {
@@ -233,8 +244,9 @@
     }
   },
   "order": [
-    "image_banner",
+    "custom_video_2",
     "custom_video",
+    "image_banner",
     "rich_text",
     "featured_collection",
     "collage",
